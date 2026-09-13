@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "relicward:bell_core"
+    },
+    {
+      "item": "relicward:bronze_fragment"
+    },
+    {
+      "item": "relicward:bronze_fragment"
+    },
+    {
+      "item": "relicward:bronze_fragment"
+    },
+    {
+      "item": "relicward:bronze_fragment"
+    },
+    {
+      "item": "minecraft:string"
+    },
+    {
+      "item": "minecraft:string"
+    }
+  ],
+  "result": {
+    "item": "relicward:warden_pendant"
+  }
+}

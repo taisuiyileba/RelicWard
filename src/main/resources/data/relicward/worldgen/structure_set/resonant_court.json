@@ -1,0 +1,12 @@
+{
+  "structures": [
+    {
+      "structure": "relicward:resonant_court",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "relicward:court_spread",
+    "salt": 8172401
+  }
+}

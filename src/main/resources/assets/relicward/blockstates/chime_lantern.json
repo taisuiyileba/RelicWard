@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "hanging=false": {
+      "model": "relicward:block/chime_lantern"
+    },
+    "hanging=true": {
+      "model": "relicward:block/chime_lantern_hanging"
+    }
+  }
+}

@@ -1,0 +1,3566 @@
+{
+  "bones": [
+    {
+      "name": "root",
+      "parent": null,
+      "pivot": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "body",
+      "parent": "root",
+      "pivot": [
+        0,
+        -40,
+        0
+      ]
+    },
+    {
+      "name": "head",
+      "parent": "body",
+      "pivot": [
+        0,
+        -27,
+        0
+      ]
+    },
+    {
+      "name": "bell",
+      "parent": "body",
+      "pivot": [
+        0,
+        -21,
+        -2
+      ]
+    },
+    {
+      "name": "clapper",
+      "parent": "bell",
+      "pivot": [
+        0,
+        10,
+        0
+      ]
+    },
+    {
+      "name": "right_arm",
+      "parent": "body",
+      "pivot": [
+        -22,
+        -22,
+        0
+      ]
+    },
+    {
+      "name": "right_forearm",
+      "parent": "right_arm",
+      "pivot": [
+        0,
+        17,
+        0
+      ]
+    },
+    {
+      "name": "hammer",
+      "parent": "right_forearm",
+      "pivot": [
+        0,
+        15,
+        -1
+      ]
+    },
+    {
+      "name": "left_arm",
+      "parent": "body",
+      "pivot": [
+        22,
+        -22,
+        0
+      ]
+    },
+    {
+      "name": "left_forearm",
+      "parent": "left_arm",
+      "pivot": [
+        0,
+        17,
+        0
+      ]
+    },
+    {
+      "name": "right_leg",
+      "parent": "root",
+      "pivot": [
+        -10,
+        -38,
+        0
+      ]
+    },
+    {
+      "name": "right_shin",
+      "parent": "right_leg",
+      "pivot": [
+        0,
+        18,
+        0
+      ]
+    },
+    {
+      "name": "left_leg",
+      "parent": "root",
+      "pivot": [
+        10,
+        -38,
+        0
+      ]
+    },
+    {
+      "name": "left_shin",
+      "parent": "left_leg",
+      "pivot": [
+        0,
+        18,
+        0
+      ]
+    },
+    {
+      "name": "right_foot",
+      "parent": "right_shin",
+      "pivot": [
+        0,
+        17,
+        0
+      ]
+    },
+    {
+      "name": "left_foot",
+      "parent": "left_shin",
+      "pivot": [
+        0,
+        17,
+        0
+      ]
+    },
+    {
+      "name": "chest_left",
+      "parent": "body",
+      "pivot": [
+        -18,
+        -12,
+        5
+      ]
+    },
+    {
+      "name": "chest_right",
+      "parent": "body",
+      "pivot": [
+        18,
+        -12,
+        5
+      ]
+    }
+  ],
+  "cubes": [
+    {
+      "name": "backplate",
+      "bone": "body",
+      "pos": [
+        -16,
+        -24,
+        5
+      ],
+      "size": [
+        32,
+        24,
+        6
+      ],
+      "material": "patina",
+      "uv": [
+        1,
+        1
+      ],
+      "world": [
+        -16,
+        -64,
+        5
+      ]
+    },
+    {
+      "name": "left_chest_pier",
+      "bone": "chest_left",
+      "pos": [
+        0,
+        -11,
+        -13
+      ],
+      "size": [
+        7,
+        23,
+        14
+      ],
+      "material": "bronze",
+      "uv": [
+        79,
+        1
+      ],
+      "world": [
+        -18,
+        -63,
+        -8
+      ]
+    },
+    {
+      "name": "right_chest_pier",
+      "bone": "chest_right",
+      "pos": [
+        -7,
+        -11,
+        -13
+      ],
+      "size": [
+        7,
+        23,
+        14
+      ],
+      "material": "bronze",
+      "uv": [
+        123,
+        1
+      ],
+      "world": [
+        11,
+        -63,
+        -8
+      ]
+    },
+    {
+      "name": "collar_lintel",
+      "bone": "body",
+      "pos": [
+        -18,
+        -27,
+        -9
+      ],
+      "size": [
+        36,
+        6,
+        20
+      ],
+      "material": "gold",
+      "uv": [
+        167,
+        1
+      ],
+      "world": [
+        -18,
+        -67,
+        -9
+      ]
+    },
+    {
+      "name": "collar_shadow",
+      "bone": "body",
+      "pos": [
+        -13,
+        -28,
+        -6
+      ],
+      "size": [
+        26,
+        2,
+        13
+      ],
+      "material": "dark",
+      "uv": [
+        281,
+        1
+      ],
+      "world": [
+        -13,
+        -68,
+        -6
+      ]
+    },
+    {
+      "name": "lower_chest_sill",
+      "bone": "body",
+      "pos": [
+        -17,
+        -3,
+        -9
+      ],
+      "size": [
+        34,
+        5,
+        19
+      ],
+      "material": "gold",
+      "uv": [
+        361,
+        1
+      ],
+      "world": [
+        -17,
+        -43,
+        -9
+      ]
+    },
+    {
+      "name": "waist_joint",
+      "bone": "body",
+      "pos": [
+        -10,
+        2,
+        -5
+      ],
+      "size": [
+        20,
+        4,
+        12
+      ],
+      "material": "dark",
+      "uv": [
+        1,
+        40
+      ],
+      "world": [
+        -10,
+        -38,
+        -5
+      ]
+    },
+    {
+      "name": "hip_belt",
+      "bone": "body",
+      "pos": [
+        -16,
+        5,
+        -8
+      ],
+      "size": [
+        32,
+        5,
+        18
+      ],
+      "material": "bronze",
+      "uv": [
+        67,
+        40
+      ],
+      "world": [
+        -16,
+        -35,
+        -8
+      ]
+    },
+    {
+      "name": "belt_boss",
+      "bone": "body",
+      "pos": [
+        -5,
+        5,
+        -10
+      ],
+      "size": [
+        10,
+        6,
+        3
+      ],
+      "material": "gold",
+      "uv": [
+        169,
+        40
+      ],
+      "world": [
+        -5,
+        -35,
+        -10
+      ]
+    },
+    {
+      "name": "belt_glyph",
+      "bone": "body",
+      "pos": [
+        -1,
+        6,
+        -11
+      ],
+      "size": [
+        2,
+        4,
+        1
+      ],
+      "material": "patina",
+      "uv": [
+        197,
+        40
+      ],
+      "world": [
+        -1,
+        -34,
+        -11
+      ]
+    },
+    {
+      "name": "chest_trim_-1",
+      "bone": "chest_left",
+      "pos": [
+        0,
+        -10,
+        -15
+      ],
+      "size": [
+        4,
+        22,
+        2
+      ],
+      "material": "gold",
+      "uv": [
+        205,
+        40
+      ],
+      "world": [
+        -18,
+        -62,
+        -10
+      ]
+    },
+    {
+      "name": "chest_stud_-1_-19",
+      "bone": "chest_left",
+      "pos": [
+        1,
+        -7,
+        -16
+      ],
+      "size": [
+        2,
+        2,
+        1
+      ],
+      "material": "dark",
+      "uv": [
+        219,
+        40
+      ],
+      "world": [
+        -17,
+        -59,
+        -11
+      ]
+    },
+    {
+      "name": "chest_stud_-1_-10",
+      "bone": "chest_left",
+      "pos": [
+        1,
+        2,
+        -16
+      ],
+      "size": [
+        2,
+        2,
+        1
+      ],
+      "material": "dark",
+      "uv": [
+        227,
+        40
+      ],
+      "world": [
+        -17,
+        -50,
+        -11
+      ]
+    },
+    {
+      "name": "chest_rune_long_-1",
+      "bone": "chest_left",
+      "pos": [
+        2,
+        -6,
+        -14
+      ],
+      "size": [
+        2,
+        11,
+        1
+      ],
+      "material": "patina",
+      "uv": [
+        235,
+        40
+      ],
+      "world": [
+        -16,
+        -58,
+        -9
+      ]
+    },
+    {
+      "name": "chest_trim_1",
+      "bone": "chest_right",
+      "pos": [
+        -4,
+        -10,
+        -15
+      ],
+      "size": [
+        4,
+        22,
+        2
+      ],
+      "material": "gold",
+      "uv": [
+        243,
+        40
+      ],
+      "world": [
+        14,
+        -62,
+        -10
+      ]
+    },
+    {
+      "name": "chest_stud_1_-19",
+      "bone": "chest_right",
+      "pos": [
+        -3,
+        -7,
+        -16
+      ],
+      "size": [
+        2,
+        2,
+        1
+      ],
+      "material": "dark",
+      "uv": [
+        257,
+        40
+      ],
+      "world": [
+        15,
+        -59,
+        -11
+      ]
+    },
+    {
+      "name": "chest_stud_1_-10",
+      "bone": "chest_right",
+      "pos": [
+        -3,
+        2,
+        -16
+      ],
+      "size": [
+        2,
+        2,
+        1
+      ],
+      "material": "dark",
+      "uv": [
+        265,
+        40
+      ],
+      "world": [
+        15,
+        -50,
+        -11
+      ]
+    },
+    {
+      "name": "chest_rune_long_1",
+      "bone": "chest_right",
+      "pos": [
+        -6,
+        -6,
+        -14
+      ],
+      "size": [
+        2,
+        11,
+        1
+      ],
+      "material": "patina",
+      "uv": [
+        273,
+        40
+      ],
+      "world": [
+        12,
+        -58,
+        -9
+      ]
+    },
+    {
+      "name": "bell_suspension",
+      "bone": "bell",
+      "pos": [
+        -2,
+        -1,
+        -2
+      ],
+      "size": [
+        4,
+        4,
+        4
+      ],
+      "material": "dark",
+      "uv": [
+        281,
+        40
+      ],
+      "world": [
+        -2,
+        -62,
+        -4
+      ]
+    },
+    {
+      "name": "bell_crown",
+      "bone": "bell",
+      "pos": [
+        -4,
+        2,
+        -4
+      ],
+      "size": [
+        8,
+        3,
+        8
+      ],
+      "material": "gold",
+      "uv": [
+        299,
+        40
+      ],
+      "world": [
+        -4,
+        -59,
+        -6
+      ]
+    },
+    {
+      "name": "bell_shoulder",
+      "bone": "bell",
+      "pos": [
+        -6,
+        5,
+        -5
+      ],
+      "size": [
+        12,
+        4,
+        10
+      ],
+      "material": "bronze",
+      "uv": [
+        333,
+        40
+      ],
+      "world": [
+        -6,
+        -56,
+        -7
+      ]
+    },
+    {
+      "name": "bell_front_wall",
+      "bone": "bell",
+      "pos": [
+        -7,
+        9,
+        -6
+      ],
+      "size": [
+        14,
+        6,
+        2
+      ],
+      "material": "gold",
+      "uv": [
+        379,
+        40
+      ],
+      "world": [
+        -7,
+        -52,
+        -8
+      ]
+    },
+    {
+      "name": "bell_back_wall",
+      "bone": "bell",
+      "pos": [
+        -7,
+        9,
+        4
+      ],
+      "size": [
+        14,
+        6,
+        2
+      ],
+      "material": "bronze",
+      "uv": [
+        413,
+        40
+      ],
+      "world": [
+        -7,
+        -52,
+        2
+      ]
+    },
+    {
+      "name": "bell_left_wall",
+      "bone": "bell",
+      "pos": [
+        -7,
+        9,
+        -4
+      ],
+      "size": [
+        2,
+        6,
+        8
+      ],
+      "material": "bronze",
+      "uv": [
+        447,
+        40
+      ],
+      "world": [
+        -7,
+        -52,
+        -6
+      ]
+    },
+    {
+      "name": "bell_right_wall",
+      "bone": "bell",
+      "pos": [
+        5,
+        9,
+        -4
+      ],
+      "size": [
+        2,
+        6,
+        8
+      ],
+      "material": "bronze",
+      "uv": [
+        469,
+        40
+      ],
+      "world": [
+        5,
+        -52,
+        -6
+      ]
+    },
+    {
+      "name": "bell_lip_front",
+      "bone": "bell",
+      "pos": [
+        -9,
+        15,
+        -8
+      ],
+      "size": [
+        18,
+        2,
+        2
+      ],
+      "material": "gold",
+      "uv": [
+        1,
+        66
+      ],
+      "world": [
+        -9,
+        -46,
+        -10
+      ]
+    },
+    {
+      "name": "bell_lip_back",
+      "bone": "bell",
+      "pos": [
+        -9,
+        15,
+        6
+      ],
+      "size": [
+        18,
+        2,
+        2
+      ],
+      "material": "gold",
+      "uv": [
+        43,
+        66
+      ],
+      "world": [
+        -9,
+        -46,
+        4
+      ]
+    },
+    {
+      "name": "bell_lip_left",
+      "bone": "bell",
+      "pos": [
+        -9,
+        15,
+        -6
+      ],
+      "size": [
+        2,
+        2,
+        12
+      ],
+      "material": "gold",
+      "uv": [
+        85,
+        66
+      ],
+      "world": [
+        -9,
+        -46,
+        -8
+      ]
+    },
+    {
+      "name": "bell_lip_right",
+      "bone": "bell",
+      "pos": [
+        7,
+        15,
+        -6
+      ],
+      "size": [
+        2,
+        2,
+        12
+      ],
+      "material": "gold",
+      "uv": [
+        115,
+        66
+      ],
+      "world": [
+        7,
+        -46,
+        -8
+      ]
+    },
+    {
+      "name": "bell_crack_a",
+      "bone": "bell",
+      "pos": [
+        -1,
+        7,
+        -6.15
+      ],
+      "size": [
+        1,
+        4,
+        1
+      ],
+      "material": "glow",
+      "uv": [
+        145,
+        66
+      ],
+      "world": [
+        -1,
+        -54,
+        -8.15
+      ]
+    },
+    {
+      "name": "bell_crack_b",
+      "bone": "bell",
+      "pos": [
+        0,
+        10,
+        -6.2
+      ],
+      "size": [
+        2,
+        1,
+        1
+      ],
+      "material": "glow",
+      "uv": [
+        151,
+        66
+      ],
+      "world": [
+        0,
+        -51,
+        -8.2
+      ]
+    },
+    {
+      "name": "bell_crack_c",
+      "bone": "bell",
+      "pos": [
+        1,
+        10,
+        -6.25
+      ],
+      "size": [
+        1,
+        5,
+        1
+      ],
+      "material": "glow",
+      "uv": [
+        159,
+        66
+      ],
+      "world": [
+        1,
+        -51,
+        -8.25
+      ]
+    },
+    {
+      "name": "clapper_stem",
+      "bone": "clapper",
+      "pos": [
+        -1,
+        -2,
+        -1
+      ],
+      "size": [
+        2,
+        8,
+        2
+      ],
+      "material": "dark",
+      "uv": [
+        165,
+        66
+      ],
+      "world": [
+        -1,
+        -53,
+        -3
+      ]
+    },
+    {
+      "name": "clapper_weight",
+      "bone": "clapper",
+      "pos": [
+        -2,
+        6,
+        -2
+      ],
+      "size": [
+        4,
+        3,
+        4
+      ],
+      "material": "glow",
+      "uv": [
+        175,
+        66
+      ],
+      "world": [
+        -2,
+        -45,
+        -4
+      ]
+    },
+    {
+      "name": "neck_spindle",
+      "bone": "head",
+      "pos": [
+        -4,
+        -1,
+        -3
+      ],
+      "size": [
+        8,
+        5,
+        8
+      ],
+      "material": "dark",
+      "uv": [
+        193,
+        66
+      ],
+      "world": [
+        -4,
+        -68,
+        -3
+      ]
+    },
+    {
+      "name": "mask_core",
+      "bone": "head",
+      "pos": [
+        -8,
+        -12,
+        -6
+      ],
+      "size": [
+        16,
+        13,
+        12
+      ],
+      "material": "patina",
+      "uv": [
+        227,
+        66
+      ],
+      "world": [
+        -8,
+        -79,
+        -6
+      ]
+    },
+    {
+      "name": "mask_front",
+      "bone": "head",
+      "pos": [
+        -7,
+        -11,
+        -8
+      ],
+      "size": [
+        14,
+        11,
+        3
+      ],
+      "material": "bronze",
+      "uv": [
+        285,
+        66
+      ],
+      "world": [
+        -7,
+        -78,
+        -8
+      ]
+    },
+    {
+      "name": "brow_beam",
+      "bone": "head",
+      "pos": [
+        -9,
+        -12,
+        -9
+      ],
+      "size": [
+        18,
+        3,
+        3
+      ],
+      "material": "gold",
+      "uv": [
+        321,
+        66
+      ],
+      "world": [
+        -9,
+        -79,
+        -9
+      ]
+    },
+    {
+      "name": "nose_ridge",
+      "bone": "head",
+      "pos": [
+        -2,
+        -9,
+        -9
+      ],
+      "size": [
+        4,
+        9,
+        3
+      ],
+      "material": "gold",
+      "uv": [
+        365,
+        66
+      ],
+      "world": [
+        -2,
+        -76,
+        -9
+      ]
+    },
+    {
+      "name": "eye_socket_r",
+      "bone": "head",
+      "pos": [
+        -7,
+        -8,
+        -8.2
+      ],
+      "size": [
+        5,
+        3,
+        1
+      ],
+      "material": "dark",
+      "uv": [
+        381,
+        66
+      ],
+      "world": [
+        -7,
+        -75,
+        -8.2
+      ]
+    },
+    {
+      "name": "eye_socket_l",
+      "bone": "head",
+      "pos": [
+        2,
+        -8,
+        -8.2
+      ],
+      "size": [
+        5,
+        3,
+        1
+      ],
+      "material": "dark",
+      "uv": [
+        395,
+        66
+      ],
+      "world": [
+        2,
+        -75,
+        -8.2
+      ]
+    },
+    {
+      "name": "eye_r",
+      "bone": "head",
+      "pos": [
+        -6,
+        -7,
+        -8.35
+      ],
+      "size": [
+        4,
+        1,
+        1
+      ],
+      "material": "glow",
+      "uv": [
+        409,
+        66
+      ],
+      "world": [
+        -6,
+        -74,
+        -8.35
+      ]
+    },
+    {
+      "name": "eye_l",
+      "bone": "head",
+      "pos": [
+        2,
+        -7,
+        -8.35
+      ],
+      "size": [
+        4,
+        1,
+        1
+      ],
+      "material": "glow",
+      "uv": [
+        421,
+        66
+      ],
+      "world": [
+        2,
+        -74,
+        -8.35
+      ]
+    },
+    {
+      "name": "jaw_mask",
+      "bone": "head",
+      "pos": [
+        -6,
+        -2,
+        -8
+      ],
+      "size": [
+        12,
+        4,
+        4
+      ],
+      "material": "patina",
+      "uv": [
+        433,
+        66
+      ],
+      "world": [
+        -6,
+        -69,
+        -8
+      ]
+    },
+    {
+      "name": "crown_center",
+      "bone": "head",
+      "pos": [
+        -2,
+        -15,
+        -3
+      ],
+      "size": [
+        4,
+        4,
+        7
+      ],
+      "material": "gold",
+      "uv": [
+        467,
+        66
+      ],
+      "world": [
+        -2,
+        -82,
+        -3
+      ]
+    },
+    {
+      "name": "ear_plate_-1",
+      "bone": "head",
+      "pos": [
+        -11,
+        -10,
+        -3
+      ],
+      "size": [
+        3,
+        12,
+        9
+      ],
+      "material": "gold",
+      "uv": [
+        1,
+        93
+      ],
+      "world": [
+        -11,
+        -77,
+        -3
+      ]
+    },
+    {
+      "name": "crown_prong_-1",
+      "bone": "head",
+      "pos": [
+        -11,
+        -16,
+        -1
+      ],
+      "size": [
+        3,
+        7,
+        5
+      ],
+      "material": "patina",
+      "uv": [
+        27,
+        93
+      ],
+      "world": [
+        -11,
+        -83,
+        -1
+      ]
+    },
+    {
+      "name": "crown_cap_-1",
+      "bone": "head",
+      "pos": [
+        -12,
+        -16,
+        -2
+      ],
+      "size": [
+        5,
+        2,
+        7
+      ],
+      "material": "gold",
+      "uv": [
+        45,
+        93
+      ],
+      "world": [
+        -12,
+        -83,
+        -2
+      ]
+    },
+    {
+      "name": "ear_plate_1",
+      "bone": "head",
+      "pos": [
+        8,
+        -10,
+        -3
+      ],
+      "size": [
+        3,
+        12,
+        9
+      ],
+      "material": "gold",
+      "uv": [
+        71,
+        93
+      ],
+      "world": [
+        8,
+        -77,
+        -3
+      ]
+    },
+    {
+      "name": "crown_prong_1",
+      "bone": "head",
+      "pos": [
+        8,
+        -16,
+        -1
+      ],
+      "size": [
+        3,
+        7,
+        5
+      ],
+      "material": "patina",
+      "uv": [
+        97,
+        93
+      ],
+      "world": [
+        8,
+        -83,
+        -1
+      ]
+    },
+    {
+      "name": "crown_cap_1",
+      "bone": "head",
+      "pos": [
+        7,
+        -16,
+        -2
+      ],
+      "size": [
+        5,
+        2,
+        7
+      ],
+      "material": "gold",
+      "uv": [
+        115,
+        93
+      ],
+      "world": [
+        7,
+        -83,
+        -2
+      ]
+    },
+    {
+      "name": "back_stanchion_0",
+      "bone": "body",
+      "pos": [
+        -16,
+        -31,
+        11
+      ],
+      "size": [
+        4,
+        32,
+        4
+      ],
+      "material": "dark",
+      "uv": [
+        141,
+        93
+      ],
+      "world": [
+        -16,
+        -71,
+        11
+      ]
+    },
+    {
+      "name": "back_verdig_rib_0",
+      "bone": "body",
+      "pos": [
+        -17,
+        -31,
+        13
+      ],
+      "size": [
+        6,
+        28,
+        3
+      ],
+      "material": "patina",
+      "uv": [
+        159,
+        93
+      ],
+      "world": [
+        -17,
+        -71,
+        13
+      ]
+    },
+    {
+      "name": "back_finial_0",
+      "bone": "body",
+      "pos": [
+        -18,
+        -31,
+        10
+      ],
+      "size": [
+        8,
+        3,
+        8
+      ],
+      "material": "gold",
+      "uv": [
+        179,
+        93
+      ],
+      "world": [
+        -18,
+        -71,
+        10
+      ]
+    },
+    {
+      "name": "back_rib_band_0",
+      "bone": "body",
+      "pos": [
+        -18,
+        -12,
+        11
+      ],
+      "size": [
+        8,
+        3,
+        6
+      ],
+      "material": "gold",
+      "uv": [
+        213,
+        93
+      ],
+      "world": [
+        -18,
+        -52,
+        11
+      ]
+    },
+    {
+      "name": "back_stanchion_1",
+      "bone": "body",
+      "pos": [
+        -2,
+        -35,
+        11
+      ],
+      "size": [
+        4,
+        36,
+        4
+      ],
+      "material": "dark",
+      "uv": [
+        243,
+        93
+      ],
+      "world": [
+        -2,
+        -75,
+        11
+      ]
+    },
+    {
+      "name": "back_verdig_rib_1",
+      "bone": "body",
+      "pos": [
+        -3,
+        -35,
+        13
+      ],
+      "size": [
+        6,
+        32,
+        3
+      ],
+      "material": "patina",
+      "uv": [
+        261,
+        93
+      ],
+      "world": [
+        -3,
+        -75,
+        13
+      ]
+    },
+    {
+      "name": "back_finial_1",
+      "bone": "body",
+      "pos": [
+        -4,
+        -35,
+        10
+      ],
+      "size": [
+        8,
+        3,
+        8
+      ],
+      "material": "gold",
+      "uv": [
+        281,
+        93
+      ],
+      "world": [
+        -4,
+        -75,
+        10
+      ]
+    },
+    {
+      "name": "back_rib_band_1",
+      "bone": "body",
+      "pos": [
+        -4,
+        -12,
+        11
+      ],
+      "size": [
+        8,
+        3,
+        6
+      ],
+      "material": "gold",
+      "uv": [
+        315,
+        93
+      ],
+      "world": [
+        -4,
+        -52,
+        11
+      ]
+    },
+    {
+      "name": "back_stanchion_2",
+      "bone": "body",
+      "pos": [
+        12,
+        -28,
+        11
+      ],
+      "size": [
+        4,
+        29,
+        4
+      ],
+      "material": "dark",
+      "uv": [
+        345,
+        93
+      ],
+      "world": [
+        12,
+        -68,
+        11
+      ]
+    },
+    {
+      "name": "back_verdig_rib_2",
+      "bone": "body",
+      "pos": [
+        11,
+        -28,
+        13
+      ],
+      "size": [
+        6,
+        25,
+        3
+      ],
+      "material": "patina",
+      "uv": [
+        363,
+        93
+      ],
+      "world": [
+        11,
+        -68,
+        13
+      ]
+    },
+    {
+      "name": "back_finial_2",
+      "bone": "body",
+      "pos": [
+        10,
+        -28,
+        10
+      ],
+      "size": [
+        8,
+        3,
+        8
+      ],
+      "material": "gold",
+      "uv": [
+        383,
+        93
+      ],
+      "world": [
+        10,
+        -68,
+        10
+      ]
+    },
+    {
+      "name": "back_rib_band_2",
+      "bone": "body",
+      "pos": [
+        10,
+        -12,
+        11
+      ],
+      "size": [
+        8,
+        3,
+        6
+      ],
+      "material": "gold",
+      "uv": [
+        417,
+        93
+      ],
+      "world": [
+        10,
+        -52,
+        11
+      ]
+    },
+    {
+      "name": "rear_crossbeam",
+      "bone": "body",
+      "pos": [
+        -21,
+        -21,
+        10
+      ],
+      "size": [
+        42,
+        4,
+        6
+      ],
+      "material": "bronze",
+      "uv": [
+        1,
+        135
+      ],
+      "world": [
+        -21,
+        -61,
+        10
+      ]
+    },
+    {
+      "name": "rear_central_seal",
+      "bone": "body",
+      "pos": [
+        -6,
+        -17,
+        15
+      ],
+      "size": [
+        12,
+        12,
+        2
+      ],
+      "material": "bronze",
+      "uv": [
+        99,
+        135
+      ],
+      "world": [
+        -6,
+        -57,
+        15
+      ]
+    },
+    {
+      "name": "rear_seal_inset",
+      "bone": "body",
+      "pos": [
+        -4,
+        -15,
+        17
+      ],
+      "size": [
+        8,
+        8,
+        1
+      ],
+      "material": "dark",
+      "uv": [
+        129,
+        135
+      ],
+      "world": [
+        -4,
+        -55,
+        17
+      ]
+    },
+    {
+      "name": "rear_seal_line",
+      "bone": "body",
+      "pos": [
+        -1,
+        -14,
+        18
+      ],
+      "size": [
+        2,
+        6,
+        1
+      ],
+      "material": "gold",
+      "uv": [
+        149,
+        135
+      ],
+      "world": [
+        -1,
+        -54,
+        18
+      ]
+    },
+    {
+      "name": "right_shoulder_joint",
+      "bone": "right_arm",
+      "pos": [
+        -5,
+        -4,
+        -5
+      ],
+      "size": [
+        10,
+        10,
+        10
+      ],
+      "material": "dark",
+      "uv": [
+        157,
+        135
+      ],
+      "world": [
+        -27,
+        -66,
+        -5
+      ]
+    },
+    {
+      "name": "right_pauldron",
+      "bone": "right_arm",
+      "pos": [
+        -9,
+        -7,
+        -9
+      ],
+      "size": [
+        18,
+        9,
+        18
+      ],
+      "material": "patina",
+      "uv": [
+        199,
+        135
+      ],
+      "world": [
+        -31,
+        -69,
+        -9
+      ]
+    },
+    {
+      "name": "right_pauldron_crown",
+      "bone": "right_arm",
+      "pos": [
+        -8,
+        -9,
+        -7
+      ],
+      "size": [
+        16,
+        3,
+        14
+      ],
+      "material": "bronze",
+      "uv": [
+        273,
+        135
+      ],
+      "world": [
+        -30,
+        -71,
+        -7
+      ]
+    },
+    {
+      "name": "right_pauldron_trim",
+      "bone": "right_arm",
+      "pos": [
+        -9,
+        1,
+        -10
+      ],
+      "size": [
+        18,
+        2,
+        20
+      ],
+      "material": "gold",
+      "uv": [
+        335,
+        135
+      ],
+      "world": [
+        -31,
+        -61,
+        -10
+      ]
+    },
+    {
+      "name": "right_shoulder_glyph_top",
+      "bone": "right_arm",
+      "pos": [
+        -5,
+        -5,
+        -10
+      ],
+      "size": [
+        10,
+        2,
+        1
+      ],
+      "material": "gold",
+      "uv": [
+        413,
+        135
+      ],
+      "world": [
+        -27,
+        -67,
+        -10
+      ]
+    },
+    {
+      "name": "right_shoulder_glyph_r",
+      "bone": "right_arm",
+      "pos": [
+        -5,
+        -3,
+        -10
+      ],
+      "size": [
+        2,
+        3,
+        1
+      ],
+      "material": "gold",
+      "uv": [
+        437,
+        135
+      ],
+      "world": [
+        -27,
+        -65,
+        -10
+      ]
+    },
+    {
+      "name": "right_shoulder_glyph_l",
+      "bone": "right_arm",
+      "pos": [
+        3,
+        -3,
+        -10
+      ],
+      "size": [
+        2,
+        3,
+        1
+      ],
+      "material": "gold",
+      "uv": [
+        445,
+        135
+      ],
+      "world": [
+        -19,
+        -65,
+        -10
+      ]
+    },
+    {
+      "name": "right_upper_arm",
+      "bone": "right_arm",
+      "pos": [
+        -5,
+        4,
+        -5
+      ],
+      "size": [
+        10,
+        12,
+        10
+      ],
+      "material": "bronze",
+      "uv": [
+        453,
+        135
+      ],
+      "world": [
+        -27,
+        -58,
+        -5
+      ]
+    },
+    {
+      "name": "right_bicep_inlay",
+      "bone": "right_arm",
+      "pos": [
+        -3,
+        6,
+        -6
+      ],
+      "size": [
+        6,
+        8,
+        1
+      ],
+      "material": "patina",
+      "uv": [
+        495,
+        135
+      ],
+      "world": [
+        -25,
+        -56,
+        -6
+      ]
+    },
+    {
+      "name": "right_elbow",
+      "bone": "right_forearm",
+      "pos": [
+        -4,
+        -2,
+        -4
+      ],
+      "size": [
+        8,
+        6,
+        8
+      ],
+      "material": "dark",
+      "uv": [
+        1,
+        164
+      ],
+      "world": [
+        -26,
+        -47,
+        -4
+      ]
+    },
+    {
+      "name": "right_gauntlet",
+      "bone": "right_forearm",
+      "pos": [
+        -6,
+        3,
+        -6
+      ],
+      "size": [
+        12,
+        11,
+        12
+      ],
+      "material": "patina",
+      "uv": [
+        35,
+        164
+      ],
+      "world": [
+        -28,
+        -42,
+        -6
+      ]
+    },
+    {
+      "name": "right_gauntlet_band",
+      "bone": "right_forearm",
+      "pos": [
+        -7,
+        3,
+        -7
+      ],
+      "size": [
+        14,
+        3,
+        14
+      ],
+      "material": "gold",
+      "uv": [
+        85,
+        164
+      ],
+      "world": [
+        -29,
+        -42,
+        -7
+      ]
+    },
+    {
+      "name": "right_gauntlet_spine",
+      "bone": "right_forearm",
+      "pos": [
+        -2,
+        6,
+        -7
+      ],
+      "size": [
+        4,
+        7,
+        2
+      ],
+      "material": "bronze",
+      "uv": [
+        143,
+        164
+      ],
+      "world": [
+        -24,
+        -39,
+        -7
+      ]
+    },
+    {
+      "name": "right_wrist",
+      "bone": "right_forearm",
+      "pos": [
+        -4,
+        14,
+        -4
+      ],
+      "size": [
+        8,
+        3,
+        8
+      ],
+      "material": "dark",
+      "uv": [
+        157,
+        164
+      ],
+      "world": [
+        -26,
+        -31,
+        -4
+      ]
+    },
+    {
+      "name": "right_fist",
+      "bone": "right_forearm",
+      "pos": [
+        -5,
+        16,
+        -5
+      ],
+      "size": [
+        10,
+        6,
+        10
+      ],
+      "material": "bronze",
+      "uv": [
+        191,
+        164
+      ],
+      "world": [
+        -27,
+        -29,
+        -5
+      ]
+    },
+    {
+      "name": "right_knuckle_-3",
+      "bone": "right_forearm",
+      "pos": [
+        -4,
+        17,
+        -6
+      ],
+      "size": [
+        2,
+        3,
+        2
+      ],
+      "material": "gold",
+      "uv": [
+        233,
+        164
+      ],
+      "world": [
+        -26,
+        -28,
+        -6
+      ]
+    },
+    {
+      "name": "right_knuckle_0",
+      "bone": "right_forearm",
+      "pos": [
+        -1,
+        17,
+        -6
+      ],
+      "size": [
+        2,
+        3,
+        2
+      ],
+      "material": "gold",
+      "uv": [
+        243,
+        164
+      ],
+      "world": [
+        -23,
+        -28,
+        -6
+      ]
+    },
+    {
+      "name": "right_knuckle_3",
+      "bone": "right_forearm",
+      "pos": [
+        2,
+        17,
+        -6
+      ],
+      "size": [
+        2,
+        3,
+        2
+      ],
+      "material": "gold",
+      "uv": [
+        253,
+        164
+      ],
+      "world": [
+        -20,
+        -28,
+        -6
+      ]
+    },
+    {
+      "name": "left_shoulder_joint",
+      "bone": "left_arm",
+      "pos": [
+        -5,
+        -4,
+        -5
+      ],
+      "size": [
+        10,
+        10,
+        10
+      ],
+      "material": "dark",
+      "uv": [
+        263,
+        164
+      ],
+      "world": [
+        17,
+        -66,
+        -5
+      ]
+    },
+    {
+      "name": "left_pauldron",
+      "bone": "left_arm",
+      "pos": [
+        -9,
+        -7,
+        -9
+      ],
+      "size": [
+        18,
+        9,
+        18
+      ],
+      "material": "patina",
+      "uv": [
+        305,
+        164
+      ],
+      "world": [
+        13,
+        -69,
+        -9
+      ]
+    },
+    {
+      "name": "left_pauldron_crown",
+      "bone": "left_arm",
+      "pos": [
+        -8,
+        -9,
+        -7
+      ],
+      "size": [
+        16,
+        3,
+        14
+      ],
+      "material": "bronze",
+      "uv": [
+        379,
+        164
+      ],
+      "world": [
+        14,
+        -71,
+        -7
+      ]
+    },
+    {
+      "name": "left_pauldron_trim",
+      "bone": "left_arm",
+      "pos": [
+        -9,
+        1,
+        -10
+      ],
+      "size": [
+        18,
+        2,
+        20
+      ],
+      "material": "gold",
+      "uv": [
+        1,
+        193
+      ],
+      "world": [
+        13,
+        -61,
+        -10
+      ]
+    },
+    {
+      "name": "left_shoulder_glyph_top",
+      "bone": "left_arm",
+      "pos": [
+        -5,
+        -5,
+        -10
+      ],
+      "size": [
+        10,
+        2,
+        1
+      ],
+      "material": "gold",
+      "uv": [
+        79,
+        193
+      ],
+      "world": [
+        17,
+        -67,
+        -10
+      ]
+    },
+    {
+      "name": "left_shoulder_glyph_r",
+      "bone": "left_arm",
+      "pos": [
+        -5,
+        -3,
+        -10
+      ],
+      "size": [
+        2,
+        3,
+        1
+      ],
+      "material": "gold",
+      "uv": [
+        103,
+        193
+      ],
+      "world": [
+        17,
+        -65,
+        -10
+      ]
+    },
+    {
+      "name": "left_shoulder_glyph_l",
+      "bone": "left_arm",
+      "pos": [
+        3,
+        -3,
+        -10
+      ],
+      "size": [
+        2,
+        3,
+        1
+      ],
+      "material": "gold",
+      "uv": [
+        111,
+        193
+      ],
+      "world": [
+        25,
+        -65,
+        -10
+      ]
+    },
+    {
+      "name": "left_upper_arm",
+      "bone": "left_arm",
+      "pos": [
+        -5,
+        4,
+        -5
+      ],
+      "size": [
+        10,
+        12,
+        10
+      ],
+      "material": "bronze",
+      "uv": [
+        119,
+        193
+      ],
+      "world": [
+        17,
+        -58,
+        -5
+      ]
+    },
+    {
+      "name": "left_bicep_inlay",
+      "bone": "left_arm",
+      "pos": [
+        -3,
+        6,
+        -6
+      ],
+      "size": [
+        6,
+        8,
+        1
+      ],
+      "material": "patina",
+      "uv": [
+        161,
+        193
+      ],
+      "world": [
+        19,
+        -56,
+        -6
+      ]
+    },
+    {
+      "name": "left_elbow",
+      "bone": "left_forearm",
+      "pos": [
+        -4,
+        -2,
+        -4
+      ],
+      "size": [
+        8,
+        6,
+        8
+      ],
+      "material": "dark",
+      "uv": [
+        177,
+        193
+      ],
+      "world": [
+        18,
+        -47,
+        -4
+      ]
+    },
+    {
+      "name": "left_gauntlet",
+      "bone": "left_forearm",
+      "pos": [
+        -6,
+        3,
+        -6
+      ],
+      "size": [
+        12,
+        11,
+        12
+      ],
+      "material": "patina",
+      "uv": [
+        211,
+        193
+      ],
+      "world": [
+        16,
+        -42,
+        -6
+      ]
+    },
+    {
+      "name": "left_gauntlet_band",
+      "bone": "left_forearm",
+      "pos": [
+        -7,
+        3,
+        -7
+      ],
+      "size": [
+        14,
+        3,
+        14
+      ],
+      "material": "gold",
+      "uv": [
+        261,
+        193
+      ],
+      "world": [
+        15,
+        -42,
+        -7
+      ]
+    },
+    {
+      "name": "left_gauntlet_spine",
+      "bone": "left_forearm",
+      "pos": [
+        -2,
+        6,
+        -7
+      ],
+      "size": [
+        4,
+        7,
+        2
+      ],
+      "material": "bronze",
+      "uv": [
+        319,
+        193
+      ],
+      "world": [
+        20,
+        -39,
+        -7
+      ]
+    },
+    {
+      "name": "left_wrist",
+      "bone": "left_forearm",
+      "pos": [
+        -4,
+        14,
+        -4
+      ],
+      "size": [
+        8,
+        3,
+        8
+      ],
+      "material": "dark",
+      "uv": [
+        333,
+        193
+      ],
+      "world": [
+        18,
+        -31,
+        -4
+      ]
+    },
+    {
+      "name": "left_fist",
+      "bone": "left_forearm",
+      "pos": [
+        -5,
+        16,
+        -5
+      ],
+      "size": [
+        10,
+        6,
+        10
+      ],
+      "material": "bronze",
+      "uv": [
+        367,
+        193
+      ],
+      "world": [
+        17,
+        -29,
+        -5
+      ]
+    },
+    {
+      "name": "left_knuckle_-3",
+      "bone": "left_forearm",
+      "pos": [
+        -4,
+        17,
+        -6
+      ],
+      "size": [
+        2,
+        3,
+        2
+      ],
+      "material": "gold",
+      "uv": [
+        409,
+        193
+      ],
+      "world": [
+        18,
+        -28,
+        -6
+      ]
+    },
+    {
+      "name": "left_knuckle_0",
+      "bone": "left_forearm",
+      "pos": [
+        -1,
+        17,
+        -6
+      ],
+      "size": [
+        2,
+        3,
+        2
+      ],
+      "material": "gold",
+      "uv": [
+        419,
+        193
+      ],
+      "world": [
+        21,
+        -28,
+        -6
+      ]
+    },
+    {
+      "name": "left_knuckle_3",
+      "bone": "left_forearm",
+      "pos": [
+        2,
+        17,
+        -6
+      ],
+      "size": [
+        2,
+        3,
+        2
+      ],
+      "material": "gold",
+      "uv": [
+        429,
+        193
+      ],
+      "world": [
+        24,
+        -28,
+        -6
+      ]
+    },
+    {
+      "name": "hammer_shaft",
+      "bone": "hammer",
+      "pos": [
+        -2,
+        -20,
+        -2
+      ],
+      "size": [
+        4,
+        45,
+        4
+      ],
+      "material": "dark",
+      "uv": [
+        439,
+        193
+      ],
+      "world": [
+        -24,
+        -50,
+        -3
+      ]
+    },
+    {
+      "name": "hammer_grip_top",
+      "bone": "hammer",
+      "pos": [
+        -3,
+        -12,
+        -3
+      ],
+      "size": [
+        6,
+        3,
+        6
+      ],
+      "material": "gold",
+      "uv": [
+        457,
+        193
+      ],
+      "world": [
+        -25,
+        -42,
+        -4
+      ]
+    },
+    {
+      "name": "hammer_grip_bottom",
+      "bone": "hammer",
+      "pos": [
+        -3,
+        7,
+        -3
+      ],
+      "size": [
+        6,
+        3,
+        6
+      ],
+      "material": "gold",
+      "uv": [
+        483,
+        193
+      ],
+      "world": [
+        -25,
+        -23,
+        -4
+      ]
+    },
+    {
+      "name": "hammer_pommel",
+      "bone": "hammer",
+      "pos": [
+        -4,
+        -23,
+        -4
+      ],
+      "size": [
+        8,
+        4,
+        8
+      ],
+      "material": "bronze",
+      "uv": [
+        1,
+        244
+      ],
+      "world": [
+        -26,
+        -53,
+        -5
+      ]
+    },
+    {
+      "name": "hammer_head",
+      "bone": "hammer",
+      "pos": [
+        -7,
+        15,
+        -12
+      ],
+      "size": [
+        14,
+        11,
+        24
+      ],
+      "material": "patina",
+      "uv": [
+        35,
+        244
+      ],
+      "world": [
+        -29,
+        -15,
+        -13
+      ]
+    },
+    {
+      "name": "hammer_head_spine",
+      "bone": "hammer",
+      "pos": [
+        -8,
+        14,
+        -4
+      ],
+      "size": [
+        16,
+        13,
+        8
+      ],
+      "material": "bronze",
+      "uv": [
+        113,
+        244
+      ],
+      "world": [
+        -30,
+        -16,
+        -5
+      ]
+    },
+    {
+      "name": "hammer_face_rear",
+      "bone": "hammer",
+      "pos": [
+        -8,
+        16,
+        11
+      ],
+      "size": [
+        16,
+        10,
+        4
+      ],
+      "material": "gold",
+      "uv": [
+        163,
+        244
+      ],
+      "world": [
+        -30,
+        -14,
+        10
+      ]
+    },
+    {
+      "name": "hammer_face_front",
+      "bone": "hammer",
+      "pos": [
+        -8,
+        16,
+        -15
+      ],
+      "size": [
+        16,
+        10,
+        4
+      ],
+      "material": "gold",
+      "uv": [
+        205,
+        244
+      ],
+      "world": [
+        -30,
+        -14,
+        -16
+      ]
+    },
+    {
+      "name": "hammer_front_seal",
+      "bone": "hammer",
+      "pos": [
+        -9,
+        17,
+        -3
+      ],
+      "size": [
+        2,
+        6,
+        6
+      ],
+      "material": "dark",
+      "uv": [
+        247,
+        244
+      ],
+      "world": [
+        -31,
+        -13,
+        -4
+      ]
+    },
+    {
+      "name": "hammer_front_glyph_v",
+      "bone": "hammer",
+      "pos": [
+        -10,
+        18,
+        -1
+      ],
+      "size": [
+        1,
+        4,
+        2
+      ],
+      "material": "glow",
+      "uv": [
+        265,
+        244
+      ],
+      "world": [
+        -32,
+        -12,
+        -2
+      ]
+    },
+    {
+      "name": "hammer_front_glyph_h",
+      "bone": "hammer",
+      "pos": [
+        -10,
+        19,
+        -2
+      ],
+      "size": [
+        1,
+        1,
+        4
+      ],
+      "material": "glow",
+      "uv": [
+        273,
+        244
+      ],
+      "world": [
+        -32,
+        -11,
+        -3
+      ]
+    },
+    {
+      "name": "right_hip_joint",
+      "bone": "right_leg",
+      "pos": [
+        -5,
+        -1,
+        -5
+      ],
+      "size": [
+        10,
+        5,
+        10
+      ],
+      "material": "dark",
+      "uv": [
+        285,
+        244
+      ],
+      "world": [
+        -15,
+        -39,
+        -5
+      ]
+    },
+    {
+      "name": "right_thigh",
+      "bone": "right_leg",
+      "pos": [
+        -6,
+        3,
+        -6
+      ],
+      "size": [
+        12,
+        13,
+        12
+      ],
+      "material": "bronze",
+      "uv": [
+        327,
+        244
+      ],
+      "world": [
+        -16,
+        -35,
+        -6
+      ]
+    },
+    {
+      "name": "right_skirt_lamella",
+      "bone": "right_leg",
+      "pos": [
+        -7,
+        0,
+        -9
+      ],
+      "size": [
+        14,
+        10,
+        3
+      ],
+      "material": "patina",
+      "uv": [
+        377,
+        244
+      ],
+      "world": [
+        -17,
+        -38,
+        -9
+      ]
+    },
+    {
+      "name": "right_skirt_trim",
+      "bone": "right_leg",
+      "pos": [
+        -7,
+        8,
+        -10
+      ],
+      "size": [
+        14,
+        2,
+        4
+      ],
+      "material": "gold",
+      "uv": [
+        413,
+        244
+      ],
+      "world": [
+        -17,
+        -30,
+        -10
+      ]
+    },
+    {
+      "name": "right_thigh_inset",
+      "bone": "right_leg",
+      "pos": [
+        -4,
+        11,
+        -7
+      ],
+      "size": [
+        8,
+        4,
+        2
+      ],
+      "material": "dark",
+      "uv": [
+        451,
+        244
+      ],
+      "world": [
+        -14,
+        -27,
+        -7
+      ]
+    },
+    {
+      "name": "right_knee_joint",
+      "bone": "right_shin",
+      "pos": [
+        -4,
+        -2,
+        -4
+      ],
+      "size": [
+        8,
+        6,
+        8
+      ],
+      "material": "dark",
+      "uv": [
+        473,
+        244
+      ],
+      "world": [
+        -14,
+        -22,
+        -4
+      ]
+    },
+    {
+      "name": "right_knee_guard",
+      "bone": "right_shin",
+      "pos": [
+        -6,
+        -1,
+        -8
+      ],
+      "size": [
+        12,
+        7,
+        3
+      ],
+      "material": "gold",
+      "uv": [
+        1,
+        281
+      ],
+      "world": [
+        -16,
+        -21,
+        -8
+      ]
+    },
+    {
+      "name": "right_knee_inlay",
+      "bone": "right_shin",
+      "pos": [
+        -3,
+        1,
+        -9
+      ],
+      "size": [
+        6,
+        3,
+        2
+      ],
+      "material": "patina",
+      "uv": [
+        33,
+        281
+      ],
+      "world": [
+        -13,
+        -19,
+        -9
+      ]
+    },
+    {
+      "name": "right_shin",
+      "bone": "right_shin",
+      "pos": [
+        -6,
+        5,
+        -4
+      ],
+      "size": [
+        12,
+        8,
+        8
+      ],
+      "material": "patina",
+      "uv": [
+        51,
+        281
+      ],
+      "world": [
+        -16,
+        -15,
+        -4
+      ]
+    },
+    {
+      "name": "right_shin_spine",
+      "bone": "right_shin",
+      "pos": [
+        -2,
+        6,
+        -5
+      ],
+      "size": [
+        4,
+        6,
+        2
+      ],
+      "material": "bronze",
+      "uv": [
+        93,
+        281
+      ],
+      "world": [
+        -12,
+        -14,
+        -5
+      ]
+    },
+    {
+      "name": "right_ankle_band",
+      "bone": "right_foot",
+      "pos": [
+        -7,
+        -3,
+        -7
+      ],
+      "size": [
+        14,
+        3,
+        14
+      ],
+      "material": "gold",
+      "uv": [
+        107,
+        281
+      ],
+      "world": [
+        -17,
+        -6,
+        -7
+      ]
+    },
+    {
+      "name": "right_foot",
+      "bone": "right_foot",
+      "pos": [
+        -7,
+        0,
+        -11
+      ],
+      "size": [
+        14,
+        3,
+        18
+      ],
+      "material": "bronze",
+      "uv": [
+        165,
+        281
+      ],
+      "world": [
+        -17,
+        -3,
+        -11
+      ]
+    },
+    {
+      "name": "right_toe_plate",
+      "bone": "right_foot",
+      "pos": [
+        -6,
+        -1,
+        -11
+      ],
+      "size": [
+        12,
+        2,
+        7
+      ],
+      "material": "patina",
+      "uv": [
+        231,
+        281
+      ],
+      "world": [
+        -16,
+        -4,
+        -11
+      ]
+    },
+    {
+      "name": "left_hip_joint",
+      "bone": "left_leg",
+      "pos": [
+        -5,
+        -1,
+        -5
+      ],
+      "size": [
+        10,
+        5,
+        10
+      ],
+      "material": "dark",
+      "uv": [
+        271,
+        281
+      ],
+      "world": [
+        5,
+        -39,
+        -5
+      ]
+    },
+    {
+      "name": "left_thigh",
+      "bone": "left_leg",
+      "pos": [
+        -6,
+        3,
+        -6
+      ],
+      "size": [
+        12,
+        13,
+        12
+      ],
+      "material": "bronze",
+      "uv": [
+        313,
+        281
+      ],
+      "world": [
+        4,
+        -35,
+        -6
+      ]
+    },
+    {
+      "name": "left_skirt_lamella",
+      "bone": "left_leg",
+      "pos": [
+        -7,
+        0,
+        -9
+      ],
+      "size": [
+        14,
+        10,
+        3
+      ],
+      "material": "patina",
+      "uv": [
+        363,
+        281
+      ],
+      "world": [
+        3,
+        -38,
+        -9
+      ]
+    },
+    {
+      "name": "left_skirt_trim",
+      "bone": "left_leg",
+      "pos": [
+        -7,
+        8,
+        -10
+      ],
+      "size": [
+        14,
+        2,
+        4
+      ],
+      "material": "gold",
+      "uv": [
+        399,
+        281
+      ],
+      "world": [
+        3,
+        -30,
+        -10
+      ]
+    },
+    {
+      "name": "left_thigh_inset",
+      "bone": "left_leg",
+      "pos": [
+        -4,
+        11,
+        -7
+      ],
+      "size": [
+        8,
+        4,
+        2
+      ],
+      "material": "dark",
+      "uv": [
+        437,
+        281
+      ],
+      "world": [
+        6,
+        -27,
+        -7
+      ]
+    },
+    {
+      "name": "left_knee_joint",
+      "bone": "left_shin",
+      "pos": [
+        -4,
+        -2,
+        -4
+      ],
+      "size": [
+        8,
+        6,
+        8
+      ],
+      "material": "dark",
+      "uv": [
+        459,
+        281
+      ],
+      "world": [
+        6,
+        -22,
+        -4
+      ]
+    },
+    {
+      "name": "left_knee_guard",
+      "bone": "left_shin",
+      "pos": [
+        -6,
+        -1,
+        -8
+      ],
+      "size": [
+        12,
+        7,
+        3
+      ],
+      "material": "gold",
+      "uv": [
+        1,
+        308
+      ],
+      "world": [
+        4,
+        -21,
+        -8
+      ]
+    },
+    {
+      "name": "left_knee_inlay",
+      "bone": "left_shin",
+      "pos": [
+        -3,
+        1,
+        -9
+      ],
+      "size": [
+        6,
+        3,
+        2
+      ],
+      "material": "patina",
+      "uv": [
+        33,
+        308
+      ],
+      "world": [
+        7,
+        -19,
+        -9
+      ]
+    },
+    {
+      "name": "left_shin",
+      "bone": "left_shin",
+      "pos": [
+        -6,
+        5,
+        -4
+      ],
+      "size": [
+        12,
+        8,
+        8
+      ],
+      "material": "patina",
+      "uv": [
+        51,
+        308
+      ],
+      "world": [
+        4,
+        -15,
+        -4
+      ]
+    },
+    {
+      "name": "left_shin_spine",
+      "bone": "left_shin",
+      "pos": [
+        -2,
+        6,
+        -5
+      ],
+      "size": [
+        4,
+        6,
+        2
+      ],
+      "material": "bronze",
+      "uv": [
+        93,
+        308
+      ],
+      "world": [
+        8,
+        -14,
+        -5
+      ]
+    },
+    {
+      "name": "left_ankle_band",
+      "bone": "left_foot",
+      "pos": [
+        -7,
+        -3,
+        -7
+      ],
+      "size": [
+        14,
+        3,
+        14
+      ],
+      "material": "gold",
+      "uv": [
+        107,
+        308
+      ],
+      "world": [
+        3,
+        -6,
+        -7
+      ]
+    },
+    {
+      "name": "left_foot",
+      "bone": "left_foot",
+      "pos": [
+        -7,
+        0,
+        -11
+      ],
+      "size": [
+        14,
+        3,
+        18
+      ],
+      "material": "bronze",
+      "uv": [
+        165,
+        308
+      ],
+      "world": [
+        3,
+        -3,
+        -11
+      ]
+    },
+    {
+      "name": "left_toe_plate",
+      "bone": "left_foot",
+      "pos": [
+        -6,
+        -1,
+        -11
+      ],
+      "size": [
+        12,
+        2,
+        7
+      ],
+      "material": "patina",
+      "uv": [
+        231,
+        308
+      ],
+      "world": [
+        4,
+        -4,
+        -11
+      ]
+    }
+  ],
+  "palette": {
+    "bronze": [
+      119,
+      88,
+      48
+    ],
+    "patina": [
+      53,
+      99,
+      85
+    ],
+    "gold": [
+      188,
+      146,
+      72
+    ],
+    "dark": [
+      35,
+      44,
+      42
+    ],
+    "iron": [
+      65,
+      75,
+      68
+    ],
+    "glow": [
+      255,
+      214,
+      120
+    ],
+    "cloth": [
+      50,
+      64,
+      59
+    ]
+  },
+  "texture_size": 512
+}

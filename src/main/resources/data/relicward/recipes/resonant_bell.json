@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " P ",
+    "PAP",
+    " C "
+  ],
+  "key": {
+    "P": {
+      "item": "relicward:resonant_plate"
+    },
+    "A": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "C": {
+      "item": "relicward:bell_core"
+    }
+  },
+  "result": {
+    "item": "relicward:resonant_bell"
+  }
+}

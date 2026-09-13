@@ -1,0 +1,57 @@
+.gradle/
+build/
+run-client/
+run-gametest/
+run-client-smoke/
+*.blend1
+__pycache__/
+*.pyc
+*.pyo
+*.class
+
+# Logs and backups
+*.log
+*.log.*
+logs/
+crash-reports/
+hs_err_pid*.log
+replay_pid*.log
+*.hprof
+backups/
+VALIDATION_*.md
+/VALIDATION.md
+/DESIGN_*.md
+/ITEMS_*.md
+art/validation/*-summary.txt
+art/validation/release-sha256.txt
+
+# Temporary renders and previews
+render_*.png
+test_*.png
+*.tmp
+*.bak
+*.swp
+*.swo
+*.mp4
+art/preview/
+showcase/
+
+# External references and test libraries
+art/cataclysm_ref/
+libs/jei*.jar
+libs/jer*.jar
+
+# IDE & OS
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+Desktop.ini
+*.iml
+out/
+
+# Local credentials and machine-specific settings
+.env
+.env.*
+!.env.example
+local.properties

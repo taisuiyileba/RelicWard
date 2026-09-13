@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PGP",
+    "PPP",
+    " P "
+  ],
+  "key": {
+    "P": {
+      "item": "relicward:resonant_plate"
+    },
+    "G": {
+      "item": "relicward:puppet_gear"
+    }
+  },
+  "result": {
+    "item": "relicward:bell_shield",
+    "count": 1
+  }
+}

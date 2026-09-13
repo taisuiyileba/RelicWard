@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "broken=false": {
+      "model": "relicward:block/resonant_pillar"
+    },
+    "broken=true": {
+      "model": "relicward:block/broken_pillar"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "relicward:bell_core"
+    },
+    "title": {
+      "translate": "advancement.relicward.victory"
+    },
+    "description": {
+      "translate": "advancement.relicward.victory.desc"
+    },
+    "background": "minecraft:textures/block/deepslate_tiles.png",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "victory": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

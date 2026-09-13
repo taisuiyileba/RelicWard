@@ -1,0 +1,7 @@
+{
+  "type": "relicward:resonant_court",
+  "biomes": "#relicward:has_court",
+  "step": "surface_structures",
+  "spawn_overrides": {},
+  "terrain_adaptation": "beard_thin"
+}

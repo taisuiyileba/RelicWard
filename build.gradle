@@ -1,0 +1,150 @@
+plugins {
+    id 'java'
+    id 'net.minecraftforge.gradle' version '6.0.54'
+}
+
+version = '1.0.0'
+group = 'cn.suiyi.relicward'
+base { archivesName = 'relicward' }
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+
+sourceSets {
+    gametest {
+        compileClasspath += sourceSets.main.output + sourceSets.main.compileClasspath
+        runtimeClasspath += sourceSets.main.output + sourceSets.main.runtimeClasspath
+    }
+    clienttest {
+        compileClasspath += sourceSets.main.output + sourceSets.main.compileClasspath
+        runtimeClasspath += sourceSets.main.output + sourceSets.main.runtimeClasspath
+    }
+}
+
+minecraft {
+    mappings channel: 'official', version: '1.20.1'
+    copyIdeResources = true
+    runs {
+        configureEach {
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', project.file('build/createSrgToMcp/output.srg').absolutePath
+        }
+        client {
+            workingDirectory project.file('run-client')
+            property 'forge.logging.console.level', 'info'
+            mods { relicward { source sourceSets.main } }
+        }
+        clientSmoke {
+            parent runs.client
+            workingDirectory project.file('run-client-smoke')
+            property 'relicward.clientSmoke', 'true'
+            args '--width', '1280', '--height', '900'
+            mods { relicward { source sourceSets.main; source sourceSets.clienttest } }
+        }
+        clientNatural {
+            parent runs.client
+            workingDirectory project.file('run-client-smoke')
+            property 'relicward.clientSmoke', 'true'
+            property 'relicward.naturalSmoke', 'true'
+            args '--width', '1280', '--height', '900'
+            mods { relicward { source sourceSets.main; source sourceSets.clienttest } }
+        }
+        clientPolish {
+            parent runs.client
+            workingDirectory project.file('run-client-smoke')
+            property 'relicward.polishSmoke', 'true'
+            args '--width', '1280', '--height', '900'
+            mods { relicward { source sourceSets.main; source sourceSets.clienttest } }
+        }
+        clientImpact {
+            parent runs.client
+            workingDirectory project.file('run-client-smoke')
+            property 'relicward.impactSmoke', 'true'
+            args '--width', '1280', '--height', '900'
+            mods { relicward { source sourceSets.main; source sourceSets.clienttest } }
+        }
+        clientExperience {
+            parent runs.client
+            workingDirectory project.file('run-client-smoke')
+            property 'relicward.experienceSmoke', 'true'
+            args '--width', '1280', '--height', '900'
+            mods { relicward { source sourceSets.main; source sourceSets.clienttest } }
+        }
+        clientGear {
+            parent runs.client
+            workingDirectory project.file('run-client-smoke')
+            property 'relicward.gearSmoke', 'true'
+            args '--width', '1280', '--height', '900'
+            mods { relicward { source sourceSets.main; source sourceSets.clienttest } }
+        }
+        clientArsenal {
+            parent runs.client
+            workingDirectory project.file('run-client-smoke')
+            property 'relicward.arsenalSmoke', 'true'
+            args '--width', '1280', '--height', '900'
+            mods { relicward { source sourceSets.main; source sourceSets.clienttest } }
+        }
+        clientCourt {
+            parent runs.client
+            workingDirectory project.file('run-client-smoke')
+            property 'relicward.courtSmoke', 'true'
+            args '--width', '1280', '--height', '900'
+            mods { relicward { source sourceSets.main; source sourceSets.clienttest } }
+        }
+        clientChapter {
+            parent runs.client
+            workingDirectory project.file('run-client-smoke')
+            property 'relicward.chapterSmoke', 'true'
+            args '--width', '1280', '--height', '900'
+            mods { relicward { source sourceSets.main; source sourceSets.clienttest } }
+        }
+        clientGravity {
+            parent runs.client
+            workingDirectory project.file('run-client-smoke')
+            property 'relicward.gravitySmoke', 'true'
+            args '--width', '1280', '--height', '900'
+            mods { relicward { source sourceSets.main; source sourceSets.clienttest } }
+        }
+        clientBoss {
+            parent runs.client
+            workingDirectory project.file('run-client-smoke')
+            property 'relicward.bossSmoke', 'true'
+            args '--width', '1280', '--height', '900'
+            mods { relicward { source sourceSets.main; source sourceSets.clienttest } }
+        }
+        clientShield {
+            parent runs.client
+            workingDirectory project.file('run-client-smoke')
+            property 'relicward.shieldSmoke', 'true'
+            args '--width', '1280', '--height', '900'
+            mods { relicward { source sourceSets.main; source sourceSets.clienttest } }
+        }
+        clientArmor {
+            parent runs.client
+            workingDirectory project.file('run-client-smoke')
+            property 'relicward.armorSmoke', 'true'
+            args '--width', '1280', '--height', '900'
+            mods { relicward { source sourceSets.main; source sourceSets.clienttest } }
+        }
+        gameTestServer {
+            workingDirectory project.file('run-gametest')
+            property 'forge.enabledGameTestNamespaces', 'relicward'
+            property 'forge.logging.console.level', 'info'
+            mods { relicward { source sourceSets.main; source sourceSets.gametest } }
+        }
+    }
+}
+
+repositories { flatDir { dirs 'libs' } }
+dependencies {
+    minecraft 'net.minecraftforge:forge:1.20.1-47.4.10'
+    implementation fg.deobf('local:curios-forge:5.14.1+1.20.1')
+    implementation fg.deobf('local:jade:1.20.1-11.13.3')
+    if (project.hasProperty('arsenalCompat')) {
+        runtimeOnly fg.deobf('local:jei:15.21.0.148')
+        runtimeOnly fg.deobf('local:jer:1.4.0.247')
+    }
+}
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }
+tasks.named('jar', Jar).configure {
+    manifest.attributes('Implementation-Version': project.version)
+    finalizedBy 'reobfJar'
+}

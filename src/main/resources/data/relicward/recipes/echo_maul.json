@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "FCF",
+    "FIF",
+    " S "
+  ],
+  "key": {
+    "F": {
+      "item": "relicward:bronze_fragment"
+    },
+    "C": {
+      "item": "relicward:bell_core"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "relicward:echo_maul"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "music.bell_warden_1": {
+    "sounds": [
+      {
+        "name": "relicward:music/bell_warden_1",
+        "stream": true
+      }
+    ]
+  },
+  "music.bell_warden_2": {
+    "sounds": [
+      {
+        "name": "relicward:music/bell_warden_2",
+        "stream": true
+      }
+    ]
+  }
+}

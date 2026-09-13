@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " N ",
+    "NLN",
+    " G "
+  ],
+  "key": {
+    "N": {
+      "item": "minecraft:copper_ingot"
+    },
+    "L": {
+      "item": "minecraft:lantern"
+    },
+    "G": {
+      "item": "relicward:puppet_gear"
+    }
+  },
+  "result": {
+    "item": "relicward:chime_lantern",
+    "count": 2
+  }
+}

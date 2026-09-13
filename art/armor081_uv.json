@@ -1,0 +1,548 @@
+[
+  {
+    "part": "brow_beam",
+    "layer": 1,
+    "uv": [
+      0,
+      34
+    ],
+    "size": [
+      10,
+      2,
+      1
+    ]
+  },
+  {
+    "part": "brow_crest",
+    "layer": 1,
+    "uv": [
+      23,
+      34
+    ],
+    "size": [
+      4,
+      3,
+      1
+    ]
+  },
+  {
+    "part": "crown_center",
+    "layer": 1,
+    "uv": [
+      34,
+      34
+    ],
+    "size": [
+      3,
+      3,
+      3
+    ]
+  },
+  {
+    "part": "right_crown_prong",
+    "layer": 1,
+    "uv": [
+      47,
+      34
+    ],
+    "size": [
+      2,
+      5,
+      2
+    ]
+  },
+  {
+    "part": "right_crown_cap",
+    "layer": 1,
+    "uv": [
+      56,
+      34
+    ],
+    "size": [
+      3,
+      1,
+      3
+    ]
+  },
+  {
+    "part": "left_crown_prong",
+    "layer": 1,
+    "uv": [
+      69,
+      34
+    ],
+    "size": [
+      2,
+      5,
+      2
+    ]
+  },
+  {
+    "part": "left_crown_cap",
+    "layer": 1,
+    "uv": [
+      78,
+      34
+    ],
+    "size": [
+      3,
+      1,
+      3
+    ]
+  },
+  {
+    "part": "right_ear_plate",
+    "layer": 1,
+    "uv": [
+      91,
+      34
+    ],
+    "size": [
+      1,
+      6,
+      4
+    ]
+  },
+  {
+    "part": "left_ear_plate",
+    "layer": 1,
+    "uv": [
+      102,
+      34
+    ],
+    "size": [
+      1,
+      6,
+      4
+    ]
+  },
+  {
+    "part": "mask_jaw",
+    "layer": 1,
+    "uv": [
+      113,
+      34
+    ],
+    "size": [
+      6,
+      2,
+      1
+    ]
+  },
+  {
+    "part": "collar_lintel",
+    "layer": 1,
+    "uv": [
+      0,
+      45
+    ],
+    "size": [
+      9,
+      2,
+      5
+    ]
+  },
+  {
+    "part": "chest_bell",
+    "layer": 1,
+    "uv": [
+      29,
+      45
+    ],
+    "size": [
+      5,
+      6,
+      2
+    ]
+  },
+  {
+    "part": "back_chime_rack",
+    "layer": 1,
+    "uv": [
+      44,
+      45
+    ],
+    "size": [
+      6,
+      8,
+      1
+    ]
+  },
+  {
+    "part": "spine_rail",
+    "layer": 1,
+    "uv": [
+      59,
+      45
+    ],
+    "size": [
+      1,
+      9,
+      1
+    ]
+  },
+  {
+    "part": "back_rib_left",
+    "layer": 1,
+    "uv": [
+      64,
+      45
+    ],
+    "size": [
+      1,
+      8,
+      1
+    ]
+  },
+  {
+    "part": "back_rib_right",
+    "layer": 1,
+    "uv": [
+      69,
+      45
+    ],
+    "size": [
+      1,
+      7,
+      1
+    ]
+  },
+  {
+    "part": "back_crossbar",
+    "layer": 1,
+    "uv": [
+      74,
+      45
+    ],
+    "size": [
+      7,
+      1,
+      1
+    ]
+  },
+  {
+    "part": "back_lumbar_band",
+    "layer": 1,
+    "uv": [
+      91,
+      45
+    ],
+    "size": [
+      8,
+      1,
+      1
+    ]
+  },
+  {
+    "part": "rear_neck_lame",
+    "layer": 1,
+    "uv": [
+      110,
+      45
+    ],
+    "size": [
+      8,
+      2,
+      1
+    ]
+  },
+  {
+    "part": "left_pauldron",
+    "layer": 1,
+    "uv": [
+      0,
+      56
+    ],
+    "size": [
+      5,
+      5,
+      5
+    ]
+  },
+  {
+    "part": "left_pauldron_roof",
+    "layer": 1,
+    "uv": [
+      21,
+      56
+    ],
+    "size": [
+      6,
+      2,
+      6
+    ]
+  },
+  {
+    "part": "left_pauldron_trim",
+    "layer": 1,
+    "uv": [
+      46,
+      56
+    ],
+    "size": [
+      6,
+      2,
+      6
+    ]
+  },
+  {
+    "part": "left_bell_pendant",
+    "layer": 1,
+    "uv": [
+      71,
+      56
+    ],
+    "size": [
+      2,
+      3,
+      2
+    ]
+  },
+  {
+    "part": "right_pauldron",
+    "layer": 1,
+    "uv": [
+      80,
+      56
+    ],
+    "size": [
+      5,
+      5,
+      5
+    ]
+  },
+  {
+    "part": "right_pauldron_roof",
+    "layer": 1,
+    "uv": [
+      101,
+      56
+    ],
+    "size": [
+      6,
+      2,
+      6
+    ]
+  },
+  {
+    "part": "right_pauldron_trim",
+    "layer": 1,
+    "uv": [
+      0,
+      67
+    ],
+    "size": [
+      6,
+      2,
+      6
+    ]
+  },
+  {
+    "part": "right_bell_pendant",
+    "layer": 1,
+    "uv": [
+      25,
+      67
+    ],
+    "size": [
+      2,
+      3,
+      2
+    ]
+  },
+  {
+    "part": "right_ankle_cuff",
+    "layer": 1,
+    "uv": [
+      34,
+      67
+    ],
+    "size": [
+      5,
+      2,
+      5
+    ]
+  },
+  {
+    "part": "right_sabaton",
+    "layer": 1,
+    "uv": [
+      55,
+      67
+    ],
+    "size": [
+      5,
+      3,
+      5
+    ]
+  },
+  {
+    "part": "left_ankle_cuff",
+    "layer": 1,
+    "uv": [
+      76,
+      67
+    ],
+    "size": [
+      5,
+      2,
+      5
+    ]
+  },
+  {
+    "part": "left_sabaton",
+    "layer": 1,
+    "uv": [
+      97,
+      67
+    ],
+    "size": [
+      5,
+      3,
+      5
+    ]
+  },
+  {
+    "part": "waist_belt",
+    "layer": 2,
+    "uv": [
+      0,
+      34
+    ],
+    "size": [
+      9,
+      3,
+      5
+    ]
+  },
+  {
+    "part": "belt_boss",
+    "layer": 2,
+    "uv": [
+      29,
+      34
+    ],
+    "size": [
+      4,
+      4,
+      1
+    ]
+  },
+  {
+    "part": "front_fauld",
+    "layer": 2,
+    "uv": [
+      40,
+      34
+    ],
+    "size": [
+      6,
+      5,
+      1
+    ]
+  },
+  {
+    "part": "left_fauld",
+    "layer": 2,
+    "uv": [
+      55,
+      34
+    ],
+    "size": [
+      1,
+      5,
+      5
+    ]
+  },
+  {
+    "part": "right_fauld",
+    "layer": 2,
+    "uv": [
+      68,
+      34
+    ],
+    "size": [
+      1,
+      5,
+      5
+    ]
+  },
+  {
+    "part": "rear_fauld",
+    "layer": 2,
+    "uv": [
+      81,
+      34
+    ],
+    "size": [
+      3,
+      4,
+      1
+    ]
+  },
+  {
+    "part": "rear_fauld_right",
+    "layer": 2,
+    "uv": [
+      90,
+      34
+    ],
+    "size": [
+      3,
+      4,
+      1
+    ]
+  },
+  {
+    "part": "right_knee_guard",
+    "layer": 2,
+    "uv": [
+      99,
+      34
+    ],
+    "size": [
+      5,
+      4,
+      2
+    ]
+  },
+  {
+    "part": "right_knee_inlay",
+    "layer": 2,
+    "uv": [
+      114,
+      34
+    ],
+    "size": [
+      3,
+      2,
+      1
+    ]
+  },
+  {
+    "part": "left_knee_guard",
+    "layer": 2,
+    "uv": [
+      0,
+      45
+    ],
+    "size": [
+      5,
+      4,
+      2
+    ]
+  },
+  {
+    "part": "left_knee_inlay",
+    "layer": 2,
+    "uv": [
+      15,
+      45
+    ],
+    "size": [
+      3,
+      2,
+      1
+    ]
+  }
+]

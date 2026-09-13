@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=south": {
+      "model": "relicward:block/court_altar",
+      "y": 0
+    },
+    "facing=west": {
+      "model": "relicward:block/court_altar",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "relicward:block/court_altar",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "relicward:block/court_altar",
+      "y": 270
+    }
+  }
+}

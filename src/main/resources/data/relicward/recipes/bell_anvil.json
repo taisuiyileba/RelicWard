@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PPP",
+    " G ",
+    "PAP"
+  ],
+  "key": {
+    "P": {
+      "item": "relicward:resonant_plate"
+    },
+    "G": {
+      "item": "relicward:puppet_gear"
+    },
+    "A": {
+      "item": "minecraft:anvil"
+    }
+  },
+  "result": {
+    "item": "relicward:bell_anvil",
+    "count": 1
+  }
+}

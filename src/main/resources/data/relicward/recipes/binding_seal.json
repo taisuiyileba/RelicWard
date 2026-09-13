@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " F ",
+    "GCG",
+    " F "
+  ],
+  "key": {
+    "F": {
+      "item": "relicward:bronze_fragment"
+    },
+    "C": {
+      "item": "relicward:bell_core"
+    },
+    "G": {
+      "item": "relicward:puppet_gear"
+    }
+  },
+  "result": {
+    "item": "relicward:binding_seal",
+    "count": 1
+  }
+}

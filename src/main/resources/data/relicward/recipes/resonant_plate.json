@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IFI",
+    "FCF",
+    "IFI"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "F": {
+      "item": "relicward:bronze_fragment"
+    },
+    "C": {
+      "item": "relicward:bell_core"
+    }
+  },
+  "result": {
+    "item": "relicward:resonant_plate",
+    "count": 8
+  }
+}

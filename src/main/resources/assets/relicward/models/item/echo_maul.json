@@ -1,0 +1,11 @@
+{
+  "parent": "relicward:item/echo_maul_held",
+  "overrides": [
+    {
+      "predicate": {
+        "relicward:charging": 1
+      },
+      "model": "relicward:item/echo_maul_charging"
+    }
+  ]
+}
